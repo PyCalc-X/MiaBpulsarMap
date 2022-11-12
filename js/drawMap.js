@@ -24,9 +24,9 @@ var PULSARS = pulsarSet('empty');
 document.getElementById('original').checked = true;  // because drawMap ('original') is called in onload
 
 // Draw the center point
-context.fillStyle = "black";
+context.fillStyle = "white";
 
-context.strokeStyle = "black";
+context.strokeStyle = "white";
 context.lineWidth = 0.2 * canvas.width / 1200;  // .2 for 1200px
 
 var fontSize = parseInt(canvas.width / 120);  // 10 for 1200px
